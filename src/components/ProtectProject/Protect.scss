@@ -1,0 +1,48 @@
+.protect-container {
+  text-align: center;
+  padding: 100px;
+
+  .form-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    .password-wrapper {
+      margin-left: 20px;
+      .input-form {
+        border: 0;
+        outline: 0;
+        background: transparent;
+        border-bottom: 1px solid #3e3e3e;
+        padding-bottom: 5px;
+        color: #d0d0d0;
+        text-align: center;
+        width: 460px;
+        margin: 20px auto;
+      }
+    }
+    .btn-check {
+      background-color: #009dd8;
+      border-radius: 6px;
+      width: 150px;
+      height: 30px;
+      color: #d0d0d0;
+      border: 0;
+      outline: none;
+      margin: 10px auto;
+      font-weight: bold;
+    }
+    .error-text {
+      color: red;
+    }
+  }
+  .title-text {
+    color: #d0d0d0;
+    font-size: 30px;
+    font-weight: 300;
+  }
+  .title-text-small {
+    padding-top: 40px;
+    color: #d0d0d0;
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,62 @@
+.delete-project-container {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: black;
+  background: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  z-index: 101;
+
+  .button-cancel {
+    float: right;
+    cursor: pointer;
+    padding: 10px 10px;
+    .cancel-btn {
+      width: 70%;
+    }
+  }
+  .title-text-delete {
+    color: #df4a32;
+    font-size: 40px;
+    padding: 100px 0 60px 0;
+    // line-height: 1.8;
+    font-weight: 300;
+    span {
+      color: #d0d0d0;
+    }
+  }
+  .btn-delete-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    .btn-delete {
+      background-color: #009dd8;
+      border-radius: 6px;
+      width: 383px;
+      height: 40px;
+      color: #d0d0d0;
+      border: 0;
+      outline: none;
+      margin: 15px 30px;
+      font-weight: bold;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+      padding: 0 20px;
+    }
+    .btn-cancel {
+      background-color: #df4a32;
+      border-radius: 6px;
+      width: 383px;
+      height: 40px;
+      color: #d0d0d0;
+      border: 0;
+      outline: none;
+      margin: 15px 30px;
+      font-weight: bold;
+    }
+  }
+}

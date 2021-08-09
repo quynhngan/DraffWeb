@@ -1,0 +1,70 @@
+.register-container {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(34, 34, 34, 0.95);
+  text-align: center;
+  z-index: 101;
+  .button-cancel {
+    float: right;
+    cursor: pointer;
+    padding: 10px 10px;
+    .cancel-btn {
+      width: 70%;
+    }
+  }
+  .title-text {
+    font-size: 40px;
+    color: #009dd8;
+    padding: 100px 0 50px 0;
+    span {
+      color: #d0d0d0;
+    }
+  }
+  .text {
+    color: #d0d0d0;
+    padding: 30px 0;
+  }
+  .text-blue {
+    font-size: 16px;
+    color: #009dd8;
+    cursor: pointer;
+  }
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    color: #d0d0d0;
+    align-items: center;
+    .input-form {
+      border: 0;
+      outline: 0;
+      background: transparent;
+      border-bottom: 1px solid #3e3e3e;
+      padding-bottom: 5px;
+      color: #d0d0d0;
+      text-align: center;
+      width: 300px;
+      margin: 5px 0;
+    }
+    .register-button {
+      background: #009dd8;
+      border: 0;
+      border: solid 1px #009dd8;
+      border-bottom: solid 1px #009dd8;
+      border-radius: 4px;
+      padding: 6px 14px;
+      box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.1),
+        inset 0 -6px 20px #009dd8;
+      color: white;
+      width: 200px;
+      outline: none;
+      margin: 20px 0;
+    }
+  }
+  .error-text {
+    color: #f32c03;
+    font-size: 14px;
+  }
+}

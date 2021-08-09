@@ -1,0 +1,30 @@
+.create-password {
+  z-index: 101;
+  .project-name-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .project-name-input {
+      font-size: 24px;
+      border: 0;
+      outline: 0;
+      background: transparent;
+      border-bottom: 1px solid #3e3e3e;
+      padding-bottom: 5px;
+      color: #d0d0d0;
+      text-align: center;
+      width: 400px;
+    }
+    .btn-change {
+      background-color: #009dd8;
+      border-radius: 6px;
+      width: 200px;
+      height: 40px;
+      color: #d0d0d0;
+      border: 0;
+      outline: none;
+      margin: 40px 0;
+    }
+  }
+}

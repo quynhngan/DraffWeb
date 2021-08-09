@@ -1,0 +1,27 @@
+.header-container-wrapper {
+  background-color: transparent;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.header-container {
+  width: 98%;
+  margin: auto;
+  .text-color.text-color {
+    color: #d0d0d0 !important;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .line {
+    border-bottom: 1px solid #1c1c1c;
+  }
+  .nav-link {
+    cursor: pointer;
+  }
+  .user-name {
+    max-width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
